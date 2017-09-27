@@ -21,5 +21,6 @@ cd wks-django
 ```
 ### Crear máquina virtual
 ```
+vagrant box add ubuntu/trusty64
 vagrant up
 ```

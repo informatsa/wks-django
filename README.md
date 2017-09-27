@@ -14,7 +14,7 @@ Repositorio de ejemplo workshop python + django
 git clone https://github.com/informatsa/wks-django.git
 ```
 Alternativa
-[Desarga directa](https://github.com/informatsa/wks-django/archive/master.zip)
+[Descarga directa](https://github.com/informatsa/wks-django/archive/master.zip)
 
 ```
 cd wks-django

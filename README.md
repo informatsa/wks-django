@@ -25,8 +25,22 @@ vagrant up
 ```
 ## Workshop
 - Introducción
-- Herramientas de desarrollo
-- Lenguaje de programación
-- django
-- postgresql
-- Git
+  - Herramientas de desarrollo
+  - Lenguaje de programación
+  - django
+  - postgresql
+  - Git
+  - configuración de máquina virtual
+- Creado la primera aplicación
+  - Creando un proyecto
+  - Configuración de base de datos
+  - Vistas
+  - Formularios
+  - Pruebas automatizadas
+  - Mejorando aspecto
+  - Sitio administrativo
+- Deploy de aplicación
+  - Amazon AWS
+  - Intancia EC2
+  - Preparación de ambiente de producción
+  - Deploy aplicación

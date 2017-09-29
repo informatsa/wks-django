@@ -15,7 +15,6 @@ git clone https://github.com/informatsa/wks-django.git
 ```
 Alternativa
 [Descarga directa](https://github.com/informatsa/wks-django/archive/master.zip)
-
 ```
 cd wks-django
 ```
@@ -24,3 +23,10 @@ cd wks-django
 vagrant box add ubuntu/trusty64
 vagrant up
 ```
+## Workshop
+- Introducción
+- Herramientas de desarrollo
+- Lenguaje de programación
+- django
+- postgresql
+- Git

@@ -44,12 +44,16 @@ vagrant up
   - Intancia EC2
   - Preparación de ambiente de producción
   - Deploy aplicación
-### Creando la primera aplicación
-Crear directorio **app** para sincronizar con máquina virtual.
-Instalación de y configuración de git en maquina virtual
-Crear virtualenv **venv**
-Crear repositorio en github
-Clonar repositorio desde github
-Crear proyecto con django
-Crear aplicación
-Configuración de base de datos
+### Herramientas de desarrollo
+[Vagrant](https://en.wikipedia.org/wiki/Vagrant_software): Vagrant es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. Originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet. Sin embargo desde la versión 1.1 Vagrant es capaz de trabajar con múltiples proveedores, como VMware, Amazon EC2, LXC, DigitalOcean, etc.
+[Documentación oficial](https://www.vagrantup.com/docs/)
+[Sitio web oficial de vagrant](https://www.vagrantup.com/)
+```
+vagrant --help                   # ayuda en linea
+vagrant up                       # levanta máquina virtual desde directorio actual
+vagrant up --provider=virtualbox # levantar máquina con proveedor virtualbox
+vagrant ssh                      # conecta a máquina virtual mediante ssh
+vagrant halt                     # detiene máquina virtual activa
+vagrant destroy                  # elimina máquina virtual
+```
+

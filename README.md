@@ -58,6 +58,7 @@ vagrant halt                     # detiene máquina virtual activa
 vagrant destroy                  # elimina máquina virtual
 ```
 ### [Servicio git](https://es.wikipedia.org/wiki/Git)
+
 Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end como Cogito o StGIT. 3​ Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. 4​ Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programación del núcleo Linux ...
 
 [Sitio oficia](https://git-scm.com/)
@@ -65,7 +66,6 @@ Es un software de control de versiones diseñado por Linus Torvalds, pensando en
 [Documentación oficial](https://git-scm.com/doc)
 
 [Ayuda rápida](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-
 
 Comando                                          | Descripción
 -------------------------------------------------|---------------------------------------------------------------
@@ -78,3 +78,14 @@ git commit -m "mensaje"                          | confirmar cambios
 git status                                       | lista cambios de archivos
 git pull                                         | descarga desde el repositorio remoto últimas modificaciones  
 git push                                         | envía a repositorio remoto nuevas modificaciones
+
+### Python
+
+Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis que favorezca un código legible.
+Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma.
+
+[Sitio oficial](https://www.python.org/)
+
+[Documentación oficial](https://docs.python.org/3/)
+
+[Ayuda rápida](https://www.cheatography.com/torerohk/cheat-sheets/python-3-espanol/)

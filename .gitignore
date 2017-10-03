@@ -102,6 +102,3 @@ ENV/
 
 # Vagrant
 .vagrant
-
-# carpeta del proyecto
-app/

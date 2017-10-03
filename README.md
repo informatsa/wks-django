@@ -57,7 +57,7 @@ vagrant ssh                      # conecta a máquina virtual mediante ssh
 vagrant halt                     # detiene máquina virtual activa
 vagrant destroy                  # elimina máquina virtual
 ```
-[Servicio git](https://es.wikipedia.org/wiki/Git)
+### [Servicio git](https://es.wikipedia.org/wiki/Git)
 Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end como Cogito o StGIT. 3​ Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. 4​ Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programación del núcleo Linux ...
 
 [Sitio oficia](https://git-scm.com/)

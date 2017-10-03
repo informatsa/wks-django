@@ -44,3 +44,12 @@ vagrant up
   - Intancia EC2
   - Preparación de ambiente de producción
   - Deploy aplicación
+### Creando la primera aplicación
+Crear directorio **app** para sincronizar con máquina virtual.
+Instalación de y configuración de git en maquina virtual
+Crear virtualenv **venv**
+Crear repositorio en github
+Clonar repositorio desde github
+Crear proyecto con django
+Crear aplicación
+Configuración de base de datos

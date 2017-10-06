@@ -89,3 +89,59 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientac
 [Documentación oficial](https://docs.python.org/3/)
 
 [Ayuda rápida](https://www.cheatography.com/torerohk/cheat-sheets/python-3-espanol/)
+
+### [Django](https://es.wikipedia.org/wiki/Django_(framework))
+
+Django es un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como Modelo–vista–controlador. Fue desarrollado en origen para gestionar varias páginas orientadas a noticias de la World Company de Lawrence, Kansas, y fue liberada al público bajo una licencia BSD en julio de 2005; el framework fue nombrado en alusión al guitarrista de jazz gitano Django Reinhardt. En junio de 2008 fue anunciado que la recién formada Django Software Foundation se haría cargo de Django en el futuro.
+
+[Sitio oficial](https://www.djangoproject.com/)
+
+[Documentación oficial](https://docs.djangoproject.com/en/1.11/)
+
+[Ayuda rápida](http://www.cheat-sheets.org/saved-copy/django_reference_sheet.pdf)
+
+```
+# crear nuevo proyecto django
+django-admin startproject nombre-proyecto
+
+# crear nueva aplicación
+django-admin startapp nombre-aplicacion
+
+# ejecutar servidor de pruebas
+python manage.py runserver
+```
+** Estructura de un proyecto **
+```
+.
+├── manage.py
+├── nueva_app
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+└── nuevo_proyecto
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+```
+** Ejemplo de template **
+```
+{% extends "base" %}
+{% block title %}{{ title|title }}{% endblock %}
+{% block intro %}
+    Texto que puede ser remplazar cuando se sobre escribe este bloque
+{% endblock %}
+{% block content %}
+    {% for entry in blog_entries %}
+        {% ifchanged %}<h1>{{ entry.pub_date|date”F, y” }}</h1>{% endifchanged %}
+        <h2>{{ entry.title }}</h2> <p>
+        {{ entry.body|escape|urlizetrunc:"40"|linebreaks}}</p>
+    {% endfor %}
+{% endblock %}
+```
+**
